@@ -19,7 +19,7 @@
         <child>
           <object class="GtkButton" id="button11">
             <property name="visible">True</property>
-            <property name="can-focus">True</property>
+            <property name="can-focus">False</property>
             <property name="receives-default">True</property>
             <child>
               <object class="GtkLabel">
@@ -40,7 +40,7 @@
         <child>
           <object class="GtkButton" id="button12">
             <property name="visible">True</property>
-            <property name="can-focus">True</property>
+            <property name="can-focus">False</property>
             <property name="receives-default">True</property>
             <child>
               <object class="GtkLabel">
@@ -61,7 +61,7 @@
         <child>
           <object class="GtkButton" id="button13">
             <property name="visible">True</property>
-            <property name="can-focus">True</property>
+            <property name="can-focus">False</property>
             <property name="receives-default">True</property>
             <child>
               <object class="GtkLabel">
@@ -82,7 +82,7 @@
         <child>
           <object class="GtkButton" id="button21">
             <property name="visible">True</property>
-            <property name="can-focus">True</property>
+            <property name="can-focus">False</property>
             <property name="receives-default">True</property>
             <child>
               <object class="GtkLabel">
@@ -103,7 +103,7 @@
         <child>
           <object class="GtkButton" id="button22">
             <property name="visible">True</property>
-            <property name="can-focus">True</property>
+            <property name="can-focus">False</property>
             <property name="receives-default">True</property>
             <child>
               <object class="GtkLabel">
@@ -124,7 +124,7 @@
         <child>
           <object class="GtkButton" id="button23">
             <property name="visible">True</property>
-            <property name="can-focus">True</property>
+            <property name="can-focus">False</property>
             <property name="receives-default">True</property>
             <child>
               <object class="GtkLabel">
@@ -145,7 +145,7 @@
         <child>
           <object class="GtkButton" id="button31">
             <property name="visible">True</property>
-            <property name="can-focus">True</property>
+            <property name="can-focus">False</property>
             <property name="receives-default">True</property>
             <child>
               <object class="GtkLabel">
@@ -166,7 +166,7 @@
         <child>
           <object class="GtkButton" id="button32">
             <property name="visible">True</property>
-            <property name="can-focus">True</property>
+            <property name="can-focus">False</property>
             <property name="receives-default">True</property>
             <child>
               <object class="GtkLabel">
@@ -187,7 +187,7 @@
         <child>
           <object class="GtkButton" id="button33">
             <property name="visible">True</property>
-            <property name="can-focus">True</property>
+            <property name="can-focus">False</property>
             <property name="receives-default">True</property>
             <child>
               <object class="GtkLabel">
