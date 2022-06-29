@@ -21,6 +21,7 @@ function grid_set()
       local name="button"..row..col
       local button=UI[name]
       local text=table_grid[row][col]
+      if text==0 then text="" end
       button_set_text(button, text)
     end
   end
