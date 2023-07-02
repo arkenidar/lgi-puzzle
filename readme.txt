@@ -18,6 +18,8 @@ NOTA: avrei potuto usare wxLua che in Linux usa wxGTK, quindi comunque GTK. Ma c
 ----------------------------------------
 user.lua (ZeroBrane Studio configuration file)
 
+path.lua=[[c:\msys64\mingw64\bin\luajit.exe]] -- LuaJIT 5.1
+
 -- to specify full path to lua interpreter if you need to use your own version
 -----path.lua = '/usr/bin/lua'
 -- $ which lua
