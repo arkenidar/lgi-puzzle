@@ -14,7 +14,14 @@ Infine menziono pure: Firefox e GSearch per trovare documentazione sull'uso e ri
 E Debian 11 sotto forma di MX-KDE (mxlinux.org).
 
 NOTA: avrei potuto usare wxLua che in Linux usa wxGTK, quindi comunque GTK. Ma credo che wxLua in quanto wxWidgets sia meglio supportato sotto Windows e Mac (e BTW wxLua è ciò che usa ZeroBrane Studio per la sua UI relativamente portabile tra questi 3 sistemi desktop intendo).
+----------------------------------------
+USE:
+pacman -S mingw-w64-x86_64-lua51-lgi mingw-w64-x86_64-luajit --needed # install lgi and luajit
+cd "C:\opt\Dropbox\gh-repos\lgi-puzzle" && luajit main.lua # system luajit (finds "lgi" if system-installed)
 
+in ZBS IDE: edit user.lua (ZeroBrane Studio configuration file)
+
+path.lua=[[c:\msys64\mingw64\bin\luajit.exe]] -- LuaJIT 5.1, system-installed (use not IDE-bundled, which lacks "lgi" etc)
 ----------------------------------------
 user.lua (ZeroBrane Studio configuration file)
 
